@@ -1,0 +1,31 @@
+.wp-block-button{
+
+    &.is-style-with-arrow{
+        .wp-block-button__link{
+        display: inline-flex;
+        align-items: center;
+        gap:.25em;
+        transition:gap .4s;
+        background: transparent !important;
+        border-color:transparent !important;
+     
+        &:hover{
+            gap:.5em;
+            .is-style-section-style2 &{
+                color:white !important;
+            }
+        }
+        &:after {
+            content: "";
+            background: currentColor;
+            mask-image: url(assets/images/arrow.svg);
+            mask-size: cover;
+            display: inline-block;
+            width:1.5em;
+            height:1.5em;
+          }
+
+    }
+}
+        
+}

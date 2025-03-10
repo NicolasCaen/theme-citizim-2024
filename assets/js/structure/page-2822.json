@@ -1,0 +1,178 @@
+{
+    "timelines": [
+        {
+            "isTimelineParent": true,
+            "timelineId": "timeline1",
+            "timelineParentId": "",
+            "position": "+=0",
+            "stagger": 0.20000000000000001,
+            "globalDuration": 2.3999999999999999,
+            "defaults": {
+                "ease": "power2.out",
+                "duration": 1
+            },
+            "name": "Timeline 1",
+            "trigger": {
+                "type": "scroll",
+                "start": "top center",
+                "end": "",
+                "scrubType": "smooth",
+                "smoothness": 5.9000000000000004,
+                "pin": false,
+                "markers": true,
+                "reverse": true
+            }
+        },
+        {
+            "isTimelineParent": false,
+            "timelineId": "auawga",
+            "timelineParentId": "",
+            "position": "+=0",
+            "stagger": 0.20000000000000001,
+            "globalDuration": 1,
+            "defaults": {
+                "ease": "power2.out",
+                "duration": 1
+            },
+            "trigger": {
+                "type": "click",
+                "start": "top center",
+                "end": "",
+                "scrubType": "none",
+                "smoothness": 1,
+                "pin": true,
+                "markers": false,
+                "reverse": true,
+                "triggerElement": "footer"
+            }
+        },
+        {
+            "isTimelineParent": false,
+            "timelineId": "standalone1",
+            "timelineParentId": "",
+            "position": "+=0",
+            "stagger": 0.20000000000000001,
+            "globalDuration": 1,
+            "defaults": {
+                "ease": "power2.out",
+                "duration": 1
+            },
+            "trigger": {
+                "type": "click",
+                "start": "top center",
+                "end": "",
+                "scrubType": "none",
+                "smoothness": 1,
+                "pin": true,
+                "markers": true,
+                "triggerElement": ".site-footer"
+            }
+        }
+    ],
+    "standaloneAnimations": [
+        {
+            "enabled": false,
+            "type": "fade",
+            "duration": 1,
+            "ease": "power2.out",
+            "from": {
+                "opacity": 0
+            },
+            "to": {
+                "opacity": 1
+            },
+            "role": "none"
+        },
+        {
+            "enabled": true,
+            "type": "fade",
+            "duration": 1,
+            "ease": "power2.out",
+            "from": {
+                "opacity": 0
+            },
+            "to": {
+                "opacity": 1
+            },
+            "role": "timeline-parent",
+            "trigger": {
+                "type": "scroll",
+                "start": "top center",
+                "end": "",
+                "scrubType": "smooth",
+                "smoothness": 5.9000000000000004,
+                "pin": false,
+                "markers": true,
+                "reverse": true
+            }
+        },
+        {
+            "enabled": true,
+            "type": "fade",
+            "duration": 3.2000000000000002,
+            "ease": "elastic.out(1.5, 0.3)",
+            "from": {
+                "y": -1000,
+                "opacity": 0,
+                "rotation": 45
+            },
+            "to": {
+                "y": 0,
+                "opacity": 1,
+                "rotation": 90
+            },
+            "role": "standalone",
+            "animationType": "custom-bounce",
+            "trigger": {
+                "type": "click",
+                "start": "top center",
+                "end": "",
+                "scrubType": "none",
+                "smoothness": 1,
+                "pin": true,
+                "markers": false,
+                "reverse": true,
+                "triggerElement": "footer"
+            }
+        },
+        {
+            "enabled": true,
+            "type": "fade",
+            "duration": 1,
+            "ease": "power2.out",
+            "from": {
+                "opacity": 0,
+                "x": -100
+            },
+            "to": {
+                "opacity": 1,
+                "x": 0
+            },
+            "role": "standalone",
+            "animationType": "slideLeft",
+            "trigger": {
+                "type": "click",
+                "start": "top center",
+                "end": "",
+                "scrubType": "none",
+                "smoothness": 1,
+                "pin": true,
+                "markers": true,
+                "triggerElement": ".site-footer"
+            }
+        },
+        {
+            "enabled": false,
+            "type": "fade",
+            "duration": 1,
+            "ease": "power2.out",
+            "from": {
+                "opacity": 0
+            },
+            "to": {
+                "opacity": 1
+            },
+            "role": "none"
+        }
+    ]
+}
