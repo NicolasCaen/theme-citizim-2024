@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Dashed",
+	"slug": "dashed",
+	"blockTypes": ["core/column"],
+	"styles": {
+		"css": "background-repeat: repeat-y;background-size:6px; background-image:url(/wp-content/themes/citizim-2024/assets/images/dash.svg); background-position:center 0;"
+		
+    }
+}

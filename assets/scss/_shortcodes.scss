@@ -14,6 +14,30 @@
             color: var(--wp--preset--color--accent) !important;  
         }
     }
+    &.theme-dark{
+        .shortcodes-query{
+            &__name{
+                color: var(--wp--preset--color--base-3) !important;    
+              
+                .citizim-card:hover &{
+                    color: var(--wp--preset--color--accent) !important;  
+                }
+            }
+            &__price{
+                color: var(--wp--preset--color--base-3) !important;    
+                
+                .citizim-card:hover &{
+                    color: var(--wp--preset--color--accent) !important;  
+                }
+            } 
+        }
+        .citizim-card{
+            background:var(--wp--preset--color--contrast-2) !important;
+            .wp-block-button__link{
+                color: var(--wp--preset--color--base-3) !important;  
+            }
+        }
+    }
 
 }
 

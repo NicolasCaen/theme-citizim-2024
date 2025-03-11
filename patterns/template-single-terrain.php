@@ -6,9 +6,7 @@
  * Block Types: core/post-content
  * Post Types: up_program_land, wp_template
  * Viewport width: 1400
- *
  */
-
 ?>
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"overlayColor":"transparent","isUserOverlayColor":true,"isDark":false,"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Rédigez le titre…","fontSize":"large"} -->

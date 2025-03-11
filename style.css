@@ -204,6 +204,24 @@ select {
 .citizim-card:hover .shortcodes-query__price {
   color: var(--wp--preset--color--accent) !important;
 }
+.shortcodes-query.theme-dark .shortcodes-query__name {
+  color: var(--wp--preset--color--base-3) !important;
+}
+.citizim-card:hover .shortcodes-query.theme-dark .shortcodes-query__name {
+  color: var(--wp--preset--color--accent) !important;
+}
+.shortcodes-query.theme-dark .shortcodes-query__price {
+  color: var(--wp--preset--color--base-3) !important;
+}
+.citizim-card:hover .shortcodes-query.theme-dark .shortcodes-query__price {
+  color: var(--wp--preset--color--accent) !important;
+}
+.shortcodes-query.theme-dark .citizim-card {
+  background: var(--wp--preset--color--contrast-2) !important;
+}
+.shortcodes-query.theme-dark .citizim-card .wp-block-button__link {
+  color: var(--wp--preset--color--base-3) !important;
+}
 
 .panneau {
   display: inline-block;

@@ -11,7 +11,7 @@
     ],
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--contrast-2)",
+            "background": "var(--wp--preset--color--contrast)",
             "text": "var(--wp--preset--color--base-3)"
         },
         "elements": {

@@ -5,7 +5,6 @@
  * Categories: group, container
  * Description: Card Equipe
  */
-
 ?>
 <!-- wp:group {"metadata":{"name":"card-equipe"},"style":{"spacing":{"blockGap":"var:preset|spacing|2"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":4282,"width":"auto","height":"223px","aspectRatio":"1","scale":"cover","sizeSlug":"medium","linkDestination":"none"} -->

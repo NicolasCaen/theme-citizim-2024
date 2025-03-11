@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Container 7.5 1
+ * Title: Container padding: 7.5rem 1rem
  * Slug: citizim-2024/group-container
  * Categories: group
- * Keywords: container,group,section
+ * Keywords: group, container,conteneur
  * Blocks type : core/group 
  * Description: Bannière de la page d'accueil
  */
