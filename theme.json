@@ -294,6 +294,10 @@
                  "css": "text-wrap:pretty;"
             },
             "core/list-item": {
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--m)",
+                    "lineHeight" : "1.25"
+                },
                 "spacing": {
                 "margin": {
                     "bottom": "var:preset|spacing|1"
