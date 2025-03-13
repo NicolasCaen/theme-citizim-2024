@@ -8,12 +8,12 @@
  * Description: Media text
  *
  */
-?>
+?> 
 <!-- wp:group {"align":"wide","className":"is-style-grid-2-1","style":{"spacing":{"blockGap":"var:preset|spacing|7"}},"layout":{"type":"grid","minimumColumnWidth":null,"columnCount":2}} -->
 <div class="wp-block-group alignwide is-style-grid-2-1"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
-<div class="wp-block-group"><<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"shadow":"var:preset|shadow|natural"}} -->
+<div class="wp-block-group"><<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"shadow":"var:preset|shadow|outlined"}} -->
 <figure class="wp-block-image size-full">
-    <img src="https://picsum.photos/800/600" alt="Lorem Picsum Image" style="box-shadow:var(--wp--preset--shadow--natural)"/>
+    <img src="https://picsum.photos/800/600" alt="Lorem Picsum Image" style="box-shadow:var(--wp--preset--shadow--outlined)"/>
 </figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->

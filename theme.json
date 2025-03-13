@@ -256,7 +256,8 @@
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--h-three)"
+					"fontSize": "var(--wp--preset--font-size--h-three)",
+                    "lineHeight": "1"
 				}
 			},
 			"h3": {
@@ -276,6 +277,12 @@
 			}
         },
         "blocks": {
+            "core/paragraph":{
+                "typography": {
+                    "fontSize": "var(--wp--preset--font-size--m)",
+                    "lineHeight" : "1.25"
+                }
+            },
             "core/quote": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--h-four)",

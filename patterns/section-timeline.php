@@ -14,6 +14,6 @@
     <!-- wp:pattern {"slug":"citizim-2024/card-focus"} /-->
     <!-- wp:pattern {"slug":"citizim-2024/card-focus"} /-->
     <!-- wp:pattern {"slug":"citizim-2024/card-focus"} /-->
-    <!-- wp:pattern {"slug":"citizim-2024/card-focus"} /-->"
+    <!-- wp:pattern {"slug":"citizim-2024/card-focus"} /-->
 </div>
 <!-- /wp:group -->

@@ -56,11 +56,11 @@
 
 <div class="wp-block-group">
 
-<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"shadow":"var:preset|shadow|natural"}} -->
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"shadow":"var:preset|shadow|outlined"}} -->
 
 <figure class="wp-block-image size-full">
 
-<img src="https://picsum.photos/800/600" alt="Lorem Picsum Image" style="box-shadow:var(--wp--preset--shadow--natural)"/>
+<img src="https://picsum.photos/800/600" alt="Lorem Picsum Image" style="box-shadow:var(--wp--preset--shadow--outlined)"/>
 
 </figure>
 

@@ -12,7 +12,9 @@ Text Domain: citizim-2024
 @import 'mixins';
 @import 'form';
 @import 'blocks';
-@import 'shortcodes';
+//@import 'shortcodes';
+@import 'gsap';
+@import 'parts';
 
 .nowrap{
     white-space: nowrap;
