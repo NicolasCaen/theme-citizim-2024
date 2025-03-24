@@ -2,3 +2,8 @@
 @import "styles/blocks/core-button-with-arrow";
 
 
+.wp-block-up-bk-slick-slider{
+    img{
+        max-height: calc(100svh - var(--header-height));
+    }
+}

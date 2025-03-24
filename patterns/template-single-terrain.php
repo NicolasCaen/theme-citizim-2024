@@ -7,11 +7,16 @@
  * Post Types: up_program_land, wp_template
  * Viewport width: 1400
  */
+
 ?>
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"overlayColor":"transparent","isUserOverlayColor":true,"isDark":false,"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-transparent-background-color has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Rédigez le titre…","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
-<!-- /wp:paragraph --></div></div>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"meta","args":{"key":"surface"}}}}} -->
+<p>Meta niveau d'étude</p>
+<!-- /wp:paragraph -->
+</div></div>
 <!-- /wp:cover -->
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"-176px"}}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
@@ -20,7 +25,7 @@
 <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-section-style2","style":{"spacing":{"blockGap":"var:preset|spacing|3","padding":{"right":"var:preset|spacing|6","left":"var:preset|spacing|6","top":"var:preset|spacing|6","bottom":"var:preset|spacing|6"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 <div class="wp-block-group is-style-section-style2" style="padding-top:var(--wp--preset--spacing--6);padding-right:var(--wp--preset--spacing--6);padding-bottom:var(--wp--preset--spacing--6);padding-left:var(--wp--preset--spacing--6)"><!-- wp:heading {"textAlign":"left","level":1,"fontSize":"h-three"} -->
-<h1 class="wp-block-heading has-text-align-left has-h-three-font-size">Programme immobilier neuf <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">Caen - Origami</mark></h1>
+<h1 class="wp-block-heading has-text-align-left has-h-three-font-size">Terrain à batir <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color"></mark></h1>
 <!-- /wp:heading -->
 
 <!-- wp:list -->

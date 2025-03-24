@@ -13,8 +13,9 @@
                     "fontFace": [
                         {
                             "fontFamily": "tt-hoves-pro-trial",
-                            "fontStyle": "normal",
-                            "fontWeight": "400",
+                               "fontStyle": "auto",
+                            "fontWeight": "100 900",
+                            "fontDisplay": "swap",
                             "src": [
                                 "file:./assets/fonts/tt-hoves-pro-trial/tt-hoves-pro-trial-variable.woff2"
                             ]
@@ -28,8 +29,9 @@
                     "fontFace": [
                         {
                             "fontFamily": "tt-hoves-pro-trial",
-                            "fontStyle": "normal",
-                            "fontWeight": "400",
+                               "fontStyle": "auto",
+                            "fontWeight": "100 900",
+                            "fontDisplay": "swap",
                             "src": [
                                 "file:./assets/fonts/tt-hoves-pro-trial/tt-hoves-pro-trial-variable.woff2"
                             ]

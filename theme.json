@@ -165,6 +165,42 @@
                     "name": "s|h5|21",
                     "size": "1.3125rem"
                 }
+            ],
+            "fontFamilies": [
+                {
+                    "fontFamily": "tt-hoves-pro-trial, sans-serif",
+                    "name": "Tt-hoves-pro-trial",
+                    "slug": "first",
+                    "fontFace": [
+                        {
+                            "fontFamily": "tt-hoves-pro-trial",
+                               "fontStyle": "auto",
+                               "fontStretch": "expanded",
+                            "fontWeight": "100 900",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/tt-hoves-pro-trial/tt-hoves-pro-trial-variable.woff2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "tt-hoves-pro-trial, sans-serif",
+                    "name": "Tt-hoves-pro-trial",
+                    "slug": "second",
+                    "fontFace": [
+                        {
+                            "fontFamily": "tt-hoves-pro-trial",
+                            "fontStyle": "auto",
+                            "fontStretch": "expanded",
+                            "fontWeight": "100 900",
+                            "fontDisplay": "swap",
+                            "src": [
+                                "file:./assets/fonts/tt-hoves-pro-trial/tt-hoves-pro-trial-variable.woff2"
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         "spacing": {

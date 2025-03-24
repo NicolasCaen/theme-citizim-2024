@@ -208,6 +208,10 @@ a.is-style-with-arrow:after {
   height: 1.5em;
 }
 
+.wp-block-up-bk-slick-slider img {
+  max-height: calc(100svh - var(--header-height));
+}
+
 .card-focus__content {
   transition: 1s background ease-in-out, 2s box-shadow;
 }
