@@ -212,6 +212,88 @@ a.is-style-with-arrow:after {
   max-height: calc(100svh - var(--header-height));
 }
 
+.equipe-v2__img {
+  background: radial-gradient(circle, rgb(255, 255, 255) 50%, lightgrey 100%);
+}
+
+.media-simple-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin: 2rem 0;
+}
+
+blockquote.is-style-box {
+  position: relative;
+}
+blockquote.is-style-box:before, blockquote.is-style-box:after {
+  content: "";
+  display: inline-flex;
+  background: url(assets/images/quote-left.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+}
+blockquote.is-style-box:before {
+  height: 40px;
+  width: 40px;
+  top: 0;
+  left: 0;
+  transform: translateY(-50%) translateX(55px) rotate(180deg);
+}
+blockquote.is-style-box:after {
+  height: 60px;
+  width: 60px;
+  bottom: 0;
+  right: 0;
+  transform: translateY(50%) translateX(-55px);
+}
+
+.card-equipe-v2 {
+  position: relative;
+  cursor: pointer;
+}
+.card-equipe-v2 .toggleElementJs {
+  opacity: 0.1;
+  position: relative;
+  transform: translateY(-50%);
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease 200ms, transform 0.5s ease 0ms; /* Transform sans délai */
+}
+.card-equipe-v2.active .toggleElementJs, .card-equipe-v2:hover .toggleElementJs {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  transform: translateY(0);
+  transition: all 0ms auto;
+}
+
+.wp-block-group:has(> .wp-block-post-terms) {
+  position: relative;
+}
+
+.wp-block-post-terms {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+}
+.wp-block-post-terms a {
+  pointer-events: none;
+  cursor: none;
+  text-decoration: none;
+  color: var(--wp--preset--color--contrast);
+  background: var(--wp--preset--color--accent);
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: var(--wp--preset--font-size--ml);
+}
+
 .card-focus__content {
   transition: 1s background ease-in-out, 2s box-shadow;
 }
@@ -254,6 +336,14 @@ header.wp-block-template-part > .wp-block-group:last-of-type:after {
   right: 0;
   bottom: 0;
   transform: translateY(100%);
+}
+
+.up-program__intro-container {
+  min-height: 315px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .nowrap {

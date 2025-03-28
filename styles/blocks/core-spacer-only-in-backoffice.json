@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Only Admin",
+	"slug": "only-in-back-office",
+	"blockTypes": ["core/spacer"],
+	"styles": {
+		"css": "display: none;"
+    }
+    
+}

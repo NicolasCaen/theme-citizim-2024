@@ -8,7 +8,7 @@
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Section | Contact","categories":["section"],"patternName":"citizim-2024/section-contact"},"align":"full","className":"is-style-section-style1","style":{"layout":{"rowSpan":1,"columnSpan":1},"spacing":{"padding":{"right":"var:preset|spacing|2","left":"var:preset|spacing|2","top":"var:preset|spacing|7","bottom":"var:preset|spacing|7"},"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained","contentSize":"760px"}} -->
-<div class="wp-block-group alignfull is-style-section-style1" style="padding-top:var(--wp--preset--spacing--7);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--7);padding-left:var(--wp--preset--spacing--2)"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"h-four"} -->
+<div class="wp-block-group alignfull is-style-section-style1" id="contact" style="padding-top:var(--wp--preset--spacing--7);padding-right:var(--wp--preset--spacing--2);padding-bottom:var(--wp--preset--spacing--7);padding-left:var(--wp--preset--spacing--2)"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"h-four"} -->
 <h3 class="wp-block-heading has-text-align-center has-h-four-font-size" style="font-style:normal;font-weight:600">Plus d’informations ? <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-accent-color">Contactez-nous !</mark></h3>
 <!-- /wp:heading -->
 

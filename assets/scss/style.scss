@@ -15,7 +15,11 @@ Text Domain: citizim-2024
 //@import 'shortcodes';
 @import 'gsap';
 @import 'parts';
+@import 'program';
 
+html {
+    scroll-behavior: smooth;
+}
 .nowrap{
     white-space: nowrap;
 }

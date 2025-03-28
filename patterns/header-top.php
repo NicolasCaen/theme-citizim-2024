@@ -18,8 +18,8 @@
 <div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
 <div class="wp-block-column" style="flex-basis:100%"><!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:image {"id":4061,"width":"29px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="https://citizim.local/wp-content/uploads/2025/02/pointer.svg" alt="" class="wp-image-4061" style="width:29px;height:auto"/></figure>
+<div class="wp-block-group"><!-- wp:image {"width":"29px","height":"auto","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large is-resized"><img src="wp-content/assets/images/pointer.svg" alt=""  style="width:29px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -28,16 +28,16 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"nowrap","style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-<div class="wp-block-group nowrap"><!-- wp:image {"id":4060,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://citizim.local/wp-content/uploads/2025/02/phone.svg" alt="" class="wp-image-4060"/></figure>
+<div class="wp-block-group nowrap"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="wp-content/assets/images/phone.svg" alt="" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
 <p style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">02 31 94 98 98</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"id":4059,"sizeSlug":"large","linkDestination":"none","style":{"spacing":{"margin":{"left":"var:preset|spacing|2"}}}} -->
-<figure class="wp-block-image size-large" style="margin-left:var(--wp--preset--spacing--2)"><img src="https://citizim.local/wp-content/uploads/2025/02/mail.svg" alt="" class="wp-image-4059"/></figure>
+<!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"spacing":{"margin":{"left":"var:preset|spacing|2"}}}} -->
+<figure class="wp-block-image size-large" style="margin-left:var(--wp--preset--spacing--2)"><img src="wp-content/assets/images/mail.svg" alt="" /></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

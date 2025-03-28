@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Contenu single Programme
- * Slug: citizim-2024/content-single-program
- * Description: Contenu des pages single Programme
+ * Title: Contenu single Bien
+ * Slug: citizim-2024/content-single-bien
+ * Description: Contenu des pages single Bien
  * Inserter: no
  *
  */
@@ -21,6 +21,3 @@
     <!-- wp:pattern {"slug":"citizim-2024/section-contact-v2"} /-->
 </main>
 <!-- /wp:group -->
-
-
-

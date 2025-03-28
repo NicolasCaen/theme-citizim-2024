@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "avec flèche gauche",
+	"slug": "with-arrow-left",
+	"blockTypes": ["core/button"],
+    "styles": {
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--m)",
+            "fontWeight": "500"
+        },
+        "color":{
+            "text": "var(--wp--preset--color--accent)"
+        },
+        "border": {
+            "color": "transparent!important"
+        },
+        "spacing": {
+            "padding": {
+                "left": "0",
+                "right": "0"
+            }
+        },
+        "elements": {
+            "button": {
+                "color":{
+                    "background": "transparent !important"
+                },
+                ":hover": {
+                   "color":{
+                     "background": "transparent !important",
+                     "text": "var(--wp--preset--color--contrast)!important"
+                   }
+                }
+            }
+        }
+    }
+}

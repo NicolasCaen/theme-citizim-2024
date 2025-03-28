@@ -4,6 +4,7 @@
  * Slug: citizim-2024/card-equipe
  * Categories: group, container
  * Description: Card Equipe
+ * Viewport width: 255
  */
 ?>
 <!-- wp:group {"metadata":{"name":"card-equipe"},"style":{"spacing":{"blockGap":"var:preset|spacing|2"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

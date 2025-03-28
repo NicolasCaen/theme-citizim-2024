@@ -281,6 +281,7 @@
             
             "heading": {
                 "typography": {
+                    "fontWeight" : "600",
                     "fontFamily": "var(--wp--preset--font-family--second)"
                 }
             },

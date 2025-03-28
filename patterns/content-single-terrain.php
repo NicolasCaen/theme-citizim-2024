@@ -9,8 +9,12 @@
 ?>
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
-<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:query {"queryId":2,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[]},"align":"full","layout":{"type":"default"}} -->
-<div class="wp-block-query alignfull"><!-- wp:post-content {"align":"full","fontSize":"medium","layout":{"type":"constrained"}} /--></div>
-<!-- /wp:query --></main>
- <!-- wp:pattern {"slug":"citizim-2024/caen1936"} /-->
+<main class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+    <!-- wp:pattern {"slug":"citizim-2024/section-hero-program-v2"} /-->
+    <!-- wp:pattern {"slug":"citizim-2024/section-textes-btn"} /-->
+    <!-- wp:pattern {"slug":"citizim-2024/section-documents"} /-->
+    <!-- wp:pattern {"slug":"citizim-2024/section-grille-tarif"} /-->
+    <!-- wp:pattern {"slug":"citizim-2024/section-localisation"} /-->
+    <!-- wp:pattern {"slug":"citizim-2024/section-contact-v2"} /-->
+</main>
 <!-- /wp:group -->

@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "box",
+	"slug": "box",
+	"blockTypes": ["core/quote"],
+	"styles": {
+		"css": "max-width:600px; margin:0 auto;",
+        "typography": {
+            "fontSize": "var(--wp--preset--font-size--h-one)",
+            "lineHeight": "1.15",
+            "textAlign": "center"
+        },
+        "color":{
+            "background":"var(--wp--preset--color--contrast)",
+            "text":"var(--wp--preset--color--white)"
+        },
+		"spacing": {
+			"padding": {
+				"top": "2.5rem",
+				"right": "2.5rem",
+				"bottom": "2.5rem",
+				"left": "2.5rem"
+			}
+		}
+    }
+    
+}
