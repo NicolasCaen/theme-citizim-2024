@@ -1,0 +1,18 @@
+.up-single-bien{
+    &__section{
+        &__content{
+            .wp-block-column{
+
+                align-items: center;
+                box-sizing: border-box;
+                &:first-of-type{
+                    flex-basis: 100% !important;
+                }
+                &:last-of-type{
+                    min-width:380px;    
+                    flex-basis: 380px !important;
+                }
+            }
+        }
+    }
+}

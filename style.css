@@ -66,7 +66,7 @@ Text Domain: citizim-2024
 .is-style-section-style1 .contact-form-grid input:not([type=submit]):not([type=checkbox]):not([type=radio]),
 .is-style-section-style1 .contact-form-grid textarea,
 .is-style-section-style1 .contact-form-grid select {
-  background-color: var(--wp--preset--color--base-2) !important;
+  background-color: var(--wp--preset--color--base-3) !important;
 }
 
 .contact-form-grid .wpcf7-list-item {
@@ -340,6 +340,18 @@ header.wp-block-template-part > .wp-block-group:last-of-type:after {
 
 .up-program__intro-container {
   min-height: 315px;
+}
+
+.up-single-bien__section__content .wp-block-column {
+  align-items: center;
+  box-sizing: border-box;
+}
+.up-single-bien__section__content .wp-block-column:first-of-type {
+  flex-basis: 100% !important;
+}
+.up-single-bien__section__content .wp-block-column:last-of-type {
+  min-width: 380px;
+  flex-basis: 380px !important;
 }
 
 html {
